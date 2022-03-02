@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var startButton: UIButton!
     
-    var counter = 0
+    private var counter = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
